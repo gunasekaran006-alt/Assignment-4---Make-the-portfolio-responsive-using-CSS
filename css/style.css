@@ -10,7 +10,8 @@
 
 body {
 font-family: 'Poppins', sans-serif;
-background-color: linear-gradiant(to right, #eef2fe, #ffffff)
+/* background-color: linear-gradiant(to right, #eef2fe, #ffffff) */
+background: linear-gradient(to right, #eef2fe, #ffffff)
 }
 
 ul li {
@@ -47,7 +48,9 @@ section {
     margin: 20px;
     padding: 20px;
     border-radius: 12px;
-    box-shadow: 0 4px 10px rgba(0,0,0.1);
+    /* box-shadow: 0 4px 10px rgba(0,0,0.1); */
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+
 }
 
 
@@ -59,16 +62,20 @@ section {
 }
 
 /* PROJECTS */
-.project {
+/* .project {
+    margin-bottom: 20px;
+} */
+
+.projects-container {
     margin-bottom: 20px;
 }
 
-.profileimage {
+/* .profileimage {
     width: 220px;
     border-radius: 10px;
     display: block;
     margin-bottom: 10px;
-}
+} */
 
 /* FORM */
 form input, form textarea {
